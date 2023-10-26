@@ -17,4 +17,16 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+
+    h1 {
+        font-family: "Lexend", sans-serif;
+        font-size: 2.8rem;
+        color: var(--grey1);
+        line-height: 4rem;
+    }
+
+    p {
+        color: var(--grey1);
+        line-height: 1.5rem;
+    }
 }

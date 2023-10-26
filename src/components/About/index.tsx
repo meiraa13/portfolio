@@ -1,3 +1,4 @@
+import { Button } from "../Button"
 import "./styles.scss"
 
 
@@ -25,8 +26,8 @@ export function About(){
                     </p>
                 </div>
                 <div className="div-buttons">
-                    <button>Projects</button>
-                    <button>Techs</button>
+                    <Button classStyle="button second-color" text="Projects" />
+                    <Button classStyle="button second-color" text="Techs" />
                 </div>
             </div>
 
