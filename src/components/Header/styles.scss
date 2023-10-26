@@ -1,0 +1,36 @@
+
+header {
+    height: 5rem;
+    background-color: var(--grey1);
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.div-header{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.div-infos {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+}
+
+.div-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
