@@ -4,12 +4,14 @@ header {
     background-color: var(--grey1);
     border-bottom: 2px solid white;
     color: white;
+    position: fixed;
+    width: 100%;
 }
 
 .div-header{
     display: flex;
     justify-content: space-between;
-    height: 100%;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -39,4 +41,38 @@ header {
     font-family: "IBM Plex Sans";
     font-size: 1.3rem;
     color: var(--grey4);
+}
+
+.trigger {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+    background-color: var(--grey1);
+    padding: 1rem;
+    position: fixed;
+    top: 5rem;
+    width: 100%;
+
+}
+
+@media(max-width:768px){
+    .trigger {
+        display: block;
+    }
+
+    .div-buttons {
+        display: none;
+    }
+
+    .is-open {
+        display: block;
+    }
+
+    .name {
+        font-size: unset;
+    }
+
+
 }
