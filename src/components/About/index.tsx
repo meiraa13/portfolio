@@ -25,9 +25,9 @@ export function About(){
                         and I speak fluent English, having taken Business Administration course in Dublin.
                     </p>
                 </div>
-                <div className="div-buttons">
+                <div className="flex">
                     <Button classStyle="button second-color" text="Projects" />
-                    <Button classStyle="button second-color" text="Techs" />
+                    <Button href="#techs" classStyle="button second-color" text="Techs" />
                 </div>
             </div>
 

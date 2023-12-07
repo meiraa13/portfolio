@@ -4,9 +4,9 @@ import "./styles.scss"
 export function Techs(){
 
     return (
-        <section className="section-techs">
+        <section id="techs" className="section-techs">
             <div className="container">
-                <h3 className="title">Languages and Technologies</h3>
+                <h3 className="title">&lt;Languages & Technologies/&gt;</h3>
                 <ul className="ul-stacks">
                     {
                         stackData.map((stack)=>{

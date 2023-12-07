@@ -1,19 +1,22 @@
 .button {
-    padding: 0.7rem 1.5rem;
+    padding: 0.5rem 1.2rem;
     background-color: var(--color1);
     border-radius: 0.5rem;
     font-weight: 600;
     font-size:medium;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: black;
 }
+
 
 .second-color {
     background-color: var(--grey1);
     color: white;
 }
 
-.border-white {
-    border: 2px solid white;
-}
+
 
 .mobile-button {
     width: 100%;

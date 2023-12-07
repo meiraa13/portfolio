@@ -2,16 +2,17 @@ import "./styles.scss"
 
 interface IButtonProps{
     classStyle:string,
-    icon:any
+    icon?:any
     text?:string,
-    href?:any
+    href?:string,
+    target?:string
 }
 
-export function Button({classStyle, icon, text, href}:IButtonProps){
+export function Button({classStyle, icon, text, href, target}:IButtonProps){
     
     return(
         <a
-        target="_blank"  
+        target={target}
         href={href}
         className={classStyle}
         >{icon}{text}

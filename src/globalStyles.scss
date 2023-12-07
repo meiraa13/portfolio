@@ -34,4 +34,10 @@
 
 button, a {
     cursor: pointer;
+    display: inline-block;
+    color: unset;
+}
+
+button, a:hover {
+    opacity: 0.8;
 }
