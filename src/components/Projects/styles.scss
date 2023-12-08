@@ -1,0 +1,22 @@
+.section-projects {
+
+    background-color: var(--grey1);
+    color: white;
+}
+
+.ul-projects {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+
+    li {
+        border: 1px solid;
+        padding: 1rem;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+}
